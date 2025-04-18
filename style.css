@@ -1,0 +1,31 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    background-color: #191919;
+    color: #e0d1c2;
+    margin: 2em;
+}
+
+h1, h2 {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+h3{
+    color: #4a5c7b;
+}
+
+p {
+    padding: 1em 0;
+    color: #ea6e1d;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li::before {
+    content: "+ ";
+    font-weight: bold;
+    margin-right: 0.5em;
+}
